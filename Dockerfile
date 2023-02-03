@@ -1,3 +1,3 @@
 FROM python:3 
-ADD test.py /
+ADD test_hoge.py /
 CMD ["python","./test_hoge.py"]
