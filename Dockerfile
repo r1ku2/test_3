@@ -22,4 +22,4 @@ COPY . /app
 
 
 # Launch app when container is run
-CMD python python_test_hoge.py
+CMD ["python", "python_test_hoge.py"]
