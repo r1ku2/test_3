@@ -31,4 +31,4 @@ RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /
 USER appuser
 
 # Launch app when container is run
-CMD streamlit run 
+CMD streamlit run python_test_hoge.py
